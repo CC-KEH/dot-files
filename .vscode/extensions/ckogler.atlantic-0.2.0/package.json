@@ -1,0 +1,46 @@
+{
+	"name": "atlantic",
+	"displayName": "Atlantic",
+	"description": "VS Code theme based on Oceanic Plus (Plus) and Cobalt Next",
+	"version": "0.2.0",
+	"publisher": "ckogler",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/koglerch13/atlantic"
+	},
+	"engines": {
+		"vscode": "^1.48.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"theme": "dark",
+		"color": "#1b2b34"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Atlantic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/atlantic-theme.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@vscode/vsce": "^2.17.0"
+	},
+	"__metadata": {
+		"id": "8f33beda-9654-48a9-9dd1-912338bbc6de",
+		"publisherId": "8fee3459-63bf-4634-a86c-73feec7e2a20",
+		"publisherDisplayName": "ckogler",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": true,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1676044939832,
+		"preRelease": false
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"name": "hacker-blue",
+	"displayName": "Hacker Blue",
+	"description": "Found on Theme Studio for VS Code by lennythetechie",
+	"publisher": "chausen",
+	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chausen/hacker-blue"
+	},
+	"icon": "assets/icon.png",
+	"engines": {
+		"vscode": "^1.63.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Hacker Blue",
+				"uiTheme": "vs-dark",
+				"path": "./themes/hacker-blue-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "f116dc15-1d6c-4d65-ac5a-12482deef2ac",
+		"publisherId": "a9bb37cb-aa03-4855-a367-85401e0c07f1",
+		"publisherDisplayName": "chausen",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1674988737927,
+		"preRelease": false
+	}
+}

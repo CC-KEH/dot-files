@@ -1,0 +1,65 @@
+{
+	"name": "material-deep-ocean-theme",
+	"displayName": "Material Deep Ocean Theme",
+	"description": "VSCode version of the JetBrains Material Theme Plugin's Deep Ocean theme",
+	"version": "0.0.4",
+	"icon": "logo.png",
+	"publisher": "KYDronePilot",
+	"scripts": {
+		"build": "gulp build"
+	},
+	"engines": {
+		"vscode": "^1.47.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Material Deep Ocean",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Material Deep Ocean-color-theme.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/KYDronePilot/material-deep-ocean-theme.git"
+	},
+	"author": {
+		"name": "Michael Galliers",
+		"email": "kydronepilotdev@gmail.com"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/KYDronePilot/material-deep-ocean-theme/issues"
+	},
+	"keywords": [
+		"vscode",
+		"material",
+		"jet-brains",
+		"deep-ocean"
+	],
+	"homepage": "https://github.com/KYDronePilot/material-deep-ocean-theme",
+	"devDependencies": {
+		"@types/fs-extra": "^9.0.6",
+		"@types/gulp": "^4.0.8",
+		"@types/node": "^14.14.22",
+		"fs-extra": "^9.1.0",
+		"gulp": "^4.0.2",
+		"ts-node": "^9.1.1",
+		"typescript": "^4.1.3"
+	},
+	"__metadata": {
+		"id": "023f7d93-b063-4306-a3bf-b949af627cf9",
+		"publisherId": "84b747ad-283d-411f-bf04-a874f6ba5c27",
+		"publisherDisplayName": "KYDronePilot",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1675785081670,
+		"preRelease": false
+	}
+}
